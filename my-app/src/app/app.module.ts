@@ -9,6 +9,8 @@ import { EventsComponent } from './events/events.component';
 import { PropertybindingComponent } from './propertybinding/propertybinding.component';
 import { ClassbindingComponent } from './classbinding/classbinding.component';
 import { NgClassDirComponent } from './ng-class-dir/ng-class-dir.component';
+import { StyleBindingComponent } from './style-binding/style-binding.component';
+import { TemplateReferenceComponent } from './template-reference/template-reference.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { NgClassDirComponent } from './ng-class-dir/ng-class-dir.component';
     EventsComponent,
     PropertybindingComponent,
     ClassbindingComponent,
-    NgClassDirComponent
+    NgClassDirComponent,
+    StyleBindingComponent,
+    TemplateReferenceComponent
   ],
   imports: [
     BrowserModule
