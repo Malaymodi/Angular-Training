@@ -1,0 +1,34 @@
+<p>structure-directives works!</p>
+<!-- <h2 *ngIf="false">
+    This is an example of ngif directive
+</h2> -->
+<!-- <h2 *ngIf='display'>
+    This is an example of ngif directive
+</h2> -->
+
+<!-- <h2 *ngIf='display; else elsePart'>
+    This is an example of ngif directive
+</h2>
+
+<ng-template #elsePart>
+    <h1>
+        Malay Modi
+    </h1>
+</ng-template> -->
+
+<div *ngIf="display; then ifPart else elsePart">
+
+</div>
+
+<ng-template #ifPart> 
+   <h2>
+     This is the if part of ngifelse directive
+   </h2>
+</ng-template>
+
+<ng-template #elsePart> 
+    <h2>
+        This is the else part of ngifelse directive
+      </h2>
+</ng-template>
+
