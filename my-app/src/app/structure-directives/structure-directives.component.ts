@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class StructureDirectivesComponent implements OnInit {
  
   public display = true;
+  public language = "";
+  public fruits = ["Apple","Banana","Chickoo","Mango","Grapes","Orange"]
   constructor() { }
 
   ngOnInit(): void {
