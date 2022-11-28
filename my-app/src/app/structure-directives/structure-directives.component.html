@@ -1,4 +1,4 @@
-<p>structure-directives works!</p>
+<!-- <p>structure-directives works!</p> -->
 <!-- <h2 *ngIf="false">
     This is an example of ngif directive
 </h2> -->
@@ -40,11 +40,32 @@
     <div *ngSwitchCase="'Reactjs'">You are expert in Reactjs framework</div>
     <div *ngSwitchDefault>This is the default part of the switch cases</div>      
  </div> -->
-<h3>Fruits in array are</h3>
- <h2>{{fruits[0]}}</h2>
+<!-- <h3>Fruits in array are</h3> -->
+ <!-- <h2>{{fruits[0]}}</h2>
  <h2>{{fruits[1]}}</h2>
  <h2>{{fruits[2]}}</h2>
  <h2>{{fruits[3]}}</h2>
  <h2>{{fruits[4]}}</h2>
- <h2>{{fruits[5]}}</h2>
- 
+ <h2>{{fruits[5]}}</h2> -->
+
+ <!-- <div *ngFor="let fruit of fruits; index as i">
+  <h2>{{ i }} {{ fruit }}</h2>
+ </div>
+  -->
+
+  <!-- <div *ngFor="let p of persons">
+       <h2>{{ p.name }}</h2>
+       <h2>{{ p.age }}</h2>
+       <h2> {{ p.designation }}</h2>
+       <p>=============</p>
+  </div> -->
+
+  <ul *ngFor="let p of persons">
+    <li> {{ p.name }}</li>
+    <li> {{ p.age }}</li>
+    <li> {{ p.designation }}</li>
+    <ul *ngFor="let h of p.hobbies">
+        <li> {{ h }}</li>
+    </ul>
+   
+  </ul>

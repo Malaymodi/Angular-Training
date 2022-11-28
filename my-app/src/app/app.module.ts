@@ -16,6 +16,10 @@ import { TemplateReferenceComponent } from './template-reference/template-refere
 import { CounterComponentComponent } from './counter-component/counter-component.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import { StructureDirectivesComponent } from './structure-directives/structure-directives.component';
+import { StudentDataComponent } from './student-data/student-data.component';
+import { StudentListComponent } from './student-list/student-list.component';
+import { ChildComponent } from './child/child.component';
+import { Child2Component } from './child2/child2.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +35,11 @@ import { StructureDirectivesComponent } from './structure-directives/structure-d
     TemplateReferenceComponent,
     CounterComponentComponent,
     TwoWayBindingComponent,
-    StructureDirectivesComponent
+    StructureDirectivesComponent,
+    StudentDataComponent,
+    StudentListComponent,
+    ChildComponent,
+    Child2Component
   ],
   imports: [
     BrowserModule,

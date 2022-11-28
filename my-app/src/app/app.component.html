@@ -10,4 +10,14 @@
 <!-- <app-template-reference></app-template-reference> -->
 <!-- <app-counter-component></app-counter-component> -->
 <!-- <app-two-way-binding></app-two-way-binding> -->
-<app-structure-directives></app-structure-directives>
+ <!-- <app-structure-directives></app-structure-directives>  -->
+<!-- <app-child [myData]="name"></app-child>
+<app-child [myDataArr]="fruitsarray"></app-child>
+<app-child [myDataObject]="empobj"></app-child>
+<button (click)="changeData()">Change data </button>
+<h2>{{ msg }}</h2>
+<app-child2 (childEvent)="msg=$event"></app-child2> -->
+<app-child (msgToSibling)="fwdMsgToSib2($event)"> </app-child>
+<app-child2></app-child2>
+<!-- <app-student-data></app-student-data>
+<app-student-list></app-student-list> -->

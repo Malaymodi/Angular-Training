@@ -1,0 +1,16 @@
+<p>child works!</p>
+<!-- <h2>Data coming from parent component is {{ myData }}</h2>
+<div *ngFor = "let f of myDataArr">
+  <h2>{{ f }}</h2>
+</div>
+<div>
+    <h2>{{ myDataObject.name }}</h2>
+    <h2>{{ myDataObject.qualification }}</h2>
+    <h2>{{ myDataObject.age }}</h2>
+    <h2>{{ myDataObject.skills }}</h2>
+  </div> -->
+
+
+<h2>This is an example of sending data from one child component to another child component</h2>
+<input type="text" [(ngModel)]="currentMsgToSibling">
+<button (click)="msgToSib()">send</button>
